@@ -1,3 +1,19 @@
-.graph-details {
-
+.graph-details-page {
+  & ion-list-header{
+    border-bottom: transparent;
+  }
+  & ion-list {
+    &>.item{
+      border-bottom:transparent;
+      &:first-child{
+        border-top:transparent;
+      },
+      &:last-child{
+        border-bottom:transparent;
+      },
+      &>.item-inner{
+        border-bottom:transparent;
+      }
+    }
+  }
 }
